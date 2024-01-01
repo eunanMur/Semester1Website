@@ -1,0 +1,144 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+  max-height: 80px;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+  color: white;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ddd;
+}
+
+.main-content {
+  padding: 50px 15px;
+  flex: 1;
+}
+
+.featured-products .section-title {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.product-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+  width: 100%;
+  display: block;
+}
+
+.product-details {
+  padding: 15px;
+}
+
+.product-name {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.product-price {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.price-before {
+  text-decoration: line-through;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.btn-buy-now {
+  color: white;
+  background-color: #28a745;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.btn-buy-now:hover {
+  background-color: #218838;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #343a40;
+  color: white;
+  padding: 40px 15px;
+}
+
+.footer__headline {
+  font-weight: bold;
+  font-family: "Helvetica", sans-serif;
+}
+
+.footer__list {
+  font-family: "Helvetica", sans-serif;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .product-row {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

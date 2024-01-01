@@ -1,0 +1,86 @@
+{
+    "products": [
+      {
+        "product_id": 1,
+        "product_name": "All-in-one Speakers and Record Player",
+        "desc": "High-quality sound and convenience.",
+        "price": 349.00,
+        "price_before": 379.00,
+        "img_src": "images/Player1.jpg",
+        "img_alt": "All-in-one Speakers and Record Player"
+      },
+      {
+        "product_id": 2,
+        "product_name": "Wembley Record Player",
+        "desc": "Vintage style with modern tech.",
+        "price": 509.00,
+        "price_before": 539.00,
+        "img_src": "images/Player2.jpg",
+        "img_alt": "Wembley Record Player"
+      },
+      {
+        "product_id": 3,
+        "product_name": "Denom Phono Record Player",
+        "desc": "For the true audiophile.",
+        "price": 579.00,
+        "price_before": 699.00,
+        "img_src": "images/Player3.jpg",
+        "img_alt": "Denom Phono Record Player"
+      },
+      {
+        "product_id": 4,
+        "product_name": "Vinyl Retro Turntable",
+        "desc": "Retro design, modern features.",
+        "price": 315.00,
+        "price_before": 350.00,
+        "img_src": "images/Player4.jpg",
+        "img_alt": "Vinyl Retro Turntable"
+      },
+      {
+        "product_id": 5,
+        "product_name": "Compact Disc Turntable",
+        "desc": "Compact size, full sound.",
+        "price": 260.00,
+        "price_before": 299.00,
+        "img_src": "images/Player5.jpg",
+        "img_alt": "Compact Disc Turntable"
+      },
+      {
+        "product_id": 6,
+        "product_name": "Hi-Fi Audio System",
+        "desc": "High fidelity sound at home.",
+        "price": 620.00,
+        "price_before": 690.00,
+        "img_src": "images/Player6.jpg",
+        "img_alt": "Hi-Fi Audio System"
+      },
+      {
+        "product_id": 7,
+        "product_name": "Portable Record Player",
+        "desc": "Take your tunes on the go.",
+        "price": 120.00,
+        "price_before": 150.00,
+        "img_src": "images/Player7.jpg",
+        "img_alt": "Portable Record Player"
+      },
+      {
+        "product_id": 8,
+        "product_name": "Studio Turntable System",
+        "desc": "Studio quality for your living room.",
+        "price": 799.00,
+        "price_before": 850.00,
+        "img_src": "images/Player8.jpg",
+        "img_alt": "Studio Turntable System"
+      },
+      {
+        "product_id": 9,
+        "product_name": "Bluetooth Record Player",
+        "desc": "Wireless streaming with vinyl warmth.",
+        "price": 450.00,
+        "price_before": 499.00,
+        "img_src": "images/Player9.jpg",
+        "img_alt": "Bluetooth Record Player"
+      }
+    ]
+  }
+  

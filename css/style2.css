@@ -1,0 +1,146 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+    max-height: 80px;
+}
+
+.navbar-toggler {
+    border-color: rgba(255,255,255,.5);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+    color: white;
+    margin-left: 10px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ddd;
+}
+
+.main-content {
+    padding: 50px 15px;
+    flex: 1;
+}
+
+.featured-products .section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card-text {
+    color: #555;
+}
+
+.card-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #e47911;
+}
+
+.card-price-before {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+
+.add-to-cart {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    display: block;
+    border-radius: 0.25rem;
+    margin-left: 1rem;
+    white-space: nowrap;
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 15px;
+}
+
+@media (max-width: 992px) {
+    .product-row {
+      justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .product-image {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .add-to-cart {
+        margin-left: 0;
+        margin-top: 0.5rem;
+        width: 100%;
+    }
+}
